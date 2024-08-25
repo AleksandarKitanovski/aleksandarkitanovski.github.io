@@ -22,8 +22,7 @@
 		into captivating narratives and thought-provoking ideas. Chess is something I've loved to play
 		ever since I was a child, I'm not very good at it, but the game is very dear to me. Programming
 		is both a profession and a passion, ever since I wrote my first "Hello, world!" more than 10
-		years ago. Recently, I've taken up Muay Thai, finding joy in the physical and mental discipline
-		of martial arts training.
+		years ago.
 	</Card>
 	<Card title="Contact">
 		You can contact me by E-mail or LinkedIn, also feel free to look around my github:

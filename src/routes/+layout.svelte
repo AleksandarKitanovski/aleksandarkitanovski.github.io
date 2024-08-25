@@ -10,7 +10,7 @@
 	}
 </script>
 
-<nav class="bg-gray-800 text-white h-auto w-full sticky top-0 left-0">
+<nav class="bg-gray-800 text-white h-auto w-full sticky top-0 left-0 z-10">
 	<ul class="xl:flex relative">
 		<div class="flex mr-auto">
 			<a href="/" class="mr-auto"><li class="p-3 hover:bg-gray-700">Aleksandar Kitanovski</li></a>
