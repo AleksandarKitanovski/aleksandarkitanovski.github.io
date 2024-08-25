@@ -10,7 +10,7 @@
 	}
 </script>
 
-<nav class="bg-gray-800 text-white h-auto w-full">
+<nav class="bg-gray-800 text-white h-auto w-full sticky top-0 left-0">
 	<ul class="xl:flex relative">
 		<div class="flex mr-auto">
 			<a href="/" class="mr-auto"><li class="p-3 hover:bg-gray-700">Aleksandar Kitanovski</li></a>
@@ -29,6 +29,7 @@
 				</svg>
 			</button>
 		</div>
+		<hr class:hidden class="border-gray-950" />
 		<div id="menu" class:hidden class="absolute bg-gray-800 w-full xl:flex xl:static xl:w-auto">
 			<a on:click={close_menu} href="/skills"><li class="p-3 hover:bg-gray-700">Skills</li></a>
 			<a on:click={close_menu} href="/tech"><li class="p-3 hover:bg-gray-700">Technologies</li></a>
