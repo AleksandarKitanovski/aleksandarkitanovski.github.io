@@ -1,12 +1,12 @@
 <script>
-	import Card from './card.svelte';
+	import Card from '../../components/card.svelte';
 	function copyMail() {
 		navigator.clipboard.writeText('kitanovski.aleksandar@yahoo.com');
 		alert('Mail coppied');
 	}
 </script>
 
-<div class="p-3 xl:flex xl:justify-between xl:mt-10">
+<div class="m-3 xl:flex xl:justify-between xl:mt-10">
 	<Card title="Career Summary">
 		I have a bachelors degree in Computer Science from FCSE, and 2 years work experience as a Data
 		Scientist. I love to learn and apply my knowledge, I like working in collaborative environments
