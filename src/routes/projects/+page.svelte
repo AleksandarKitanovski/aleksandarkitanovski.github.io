@@ -59,7 +59,7 @@
 	</Project>
 	<Project
 		title="DistilBERT and RoBERTa Models for Identification of Fake News"
-		duration="1 Month"
+		duration="1 month"
 		company="FINKI"
 		href="https://www.finki.ukim.mk"
 		paper="https://repository.ukim.mk/bitstream/20.500.12188/28593/1/MIPRO2023_Mirceva_fake_news.pdf"
@@ -74,7 +74,7 @@
 	</Project>
 	<Project
 		title="logs2graphs: Data-driven graph representation and visualization of log data"
-		duration="3 Months"
+		duration="3 months"
 		company="FINKI"
 		href="https://www.finki.ukim.mk"
 		paper="https://repository.ukim.mk/handle/20.500.12188/25690"

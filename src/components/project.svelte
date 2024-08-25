@@ -9,7 +9,7 @@
 	export let repo = '';
 	export let repo_name = '';
 
-	let project_name = title.replaceAll(' ', '_').toLowerCase();
+	let project_name = title.toLowerCase().replaceAll(/[^0-9a-z]/g, '_');
 </script>
 
 <Card {title} {width}>

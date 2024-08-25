@@ -5,7 +5,7 @@
 <ProjectPage
 	title="Chatbot Development"
 	company="GrabIT"
-	duration="~1 year"
+	duration="About 1 year"
 	href="https://www.grabit.io"
 >
 	<p slot="desc">
