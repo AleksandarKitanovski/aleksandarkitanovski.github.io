@@ -2,7 +2,7 @@
 	import Project from '../../components/project.svelte';
 </script>
 
-<div class="m-3 xl:mt-10 xl:grid xl:grid-cols-2">
+<div class="m-3 lg:grid lg:grid-cols-2 lg:gap-4 lg:auto-rows-fr xl:grid-cols-3">
 	<Project
 		title="LLM System Development"
 		duration="~6 months"
