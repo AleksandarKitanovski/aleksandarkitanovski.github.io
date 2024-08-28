@@ -1,4 +1,5 @@
 <script>
+	import DoughnutChart from '../../../components/doughnut_chart.svelte';
 	import ProjectPage from '../../../components/project_page.svelte';
 </script>
 
@@ -14,4 +15,29 @@
 		with Pandas, Statsmodel and Seaborn, and building ML Models for anomaly detection using
 		Scikit-learn.
 	</p>
+	<div
+		slot="tech"
+		class="flex flex-col mt-3 mb-6 justify-evenly space-y-8 lg:space-y-0 lg:flex-row lg:space-x-4"
+	>
+		<DoughnutChart title="Programming Languages" data={[['Python', 1]]} />
+		<DoughnutChart
+			title="Frameworks & Libraries"
+			data={[
+				['Scikit-learn', 5],
+				['Pandas', 4],
+				['Seaborn', 4],
+				['Statsmodel', 3],
+				['Numpy', 1]
+			]}
+		/>
+		<DoughnutChart
+			title="Other software"
+			data={[
+				['Jupyter Notebooks', 5],
+				['Git', 4],
+				['Docker', 2],
+				['MS Excel', 1]
+			]}
+		/>
+	</div>
 </ProjectPage>

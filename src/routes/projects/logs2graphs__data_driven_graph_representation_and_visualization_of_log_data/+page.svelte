@@ -1,4 +1,5 @@
 <script>
+	import DoughnutChart from '../../../components/doughnut_chart.svelte';
 	import ProjectPage from '../../../components/project_page.svelte';
 </script>
 
@@ -12,11 +13,32 @@
 	repo_name="log2graph"
 >
 	<p slot="desc">
-		The goal of this project was to fine-tune two transformer models, namely DistilBERT and RoBERTa,
-		and compare their effectiveness in fake news detection. Both models were trained on a labelled
-		dataset of news articles and evaluated on two datasets, comparing their performance in terms of
-		accuracy, precision, recall and F1-score. The results of the experiments showed that both models
-		perform well, with RoBERTa achieving slightly better results overall. This project resulted in a
-		paper that was published at the MIPRO Convention in Croatia.
+		The goal of this project was to develop a system which could create graph representations of
+		system logs. These graph representations could then be used in logs anomaly detection, logs
+		prediction, and root cause analysis guided by logs. Therefore in this paper, we present
+		logs2graphs, an open-source system for the creation and visualization of such graph
+		representations of log messages, which is compatible with several publicly available log sources
+		and expandable to other log sources.
 	</p>
+	<div
+		slot="tech"
+		class="flex flex-col mt-3 mb-6 justify-evenly space-y-8 lg:space-y-0 lg:flex-row lg:space-x-4"
+	>
+		<DoughnutChart title="Programming Languages" data={[['Python', 1]]} />
+		<DoughnutChart
+			title="Frameworks & Libraries"
+			data={[
+				['NetworkX', 2],
+				['Pandas', 1]
+			]}
+		/>
+		<DoughnutChart
+			title="Other software"
+			data={[
+				['Git', 2],
+				['Latex', 2],
+				['Google Colab', 1]
+			]}
+		/>
+	</div>
 </ProjectPage>

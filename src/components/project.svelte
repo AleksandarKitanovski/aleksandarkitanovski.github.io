@@ -36,7 +36,10 @@
 	{/if}
 	{#if repo_name.length > 0}
 		<h3 class="font-semibold mb-1">
-			Git repo: <a class="text-orange-600 hover:text-orange-400" href={repo}>{repo_name}</a>
+			Git repo:
+			<a class="font-normal text-orange-600 hover:text-orange-400" href={repo}>
+				{repo_name}
+			</a>
 		</h3>
 	{/if}
 	<slot></slot>

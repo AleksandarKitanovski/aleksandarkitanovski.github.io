@@ -52,6 +52,6 @@
 	};
 </script>
 
-<div class="relative w-[95vw] h-[30vh] md:h-[50vh] lg:w-[30vw]">
+<div class="relative w-[95vw] h-[30vh] md:h-[40vh] lg:w-[30vw]">
 	<canvas use:renderChart></canvas>
 </div>

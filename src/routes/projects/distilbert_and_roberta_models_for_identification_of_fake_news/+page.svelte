@@ -1,4 +1,5 @@
 <script>
+	import DoughnutChart from '../../../components/doughnut_chart.svelte';
 	import ProjectPage from '../../../components/project_page.svelte';
 </script>
 
@@ -17,4 +18,27 @@
 		perform well, with RoBERTa achieving slightly better results overall. This project resulted in a
 		paper that was published at the MIPRO Convention in Croatia.
 	</p>
+	<div
+		slot="tech"
+		class="flex flex-col mt-3 mb-6 justify-evenly space-y-8 lg:space-y-0 lg:flex-row lg:space-x-4"
+	>
+		<DoughnutChart title="Programming Languages" data={[['Python', 1]]} />
+		<DoughnutChart
+			title="Frameworks & Libraries"
+			data={[
+				['Transformers', 4],
+				['Scikit-learn', 3],
+				['Pandas', 2],
+				['Seaborn', 1],
+				['Numpy', 1]
+			]}
+		/>
+		<DoughnutChart
+			title="Other software"
+			data={[
+				['Google Colab', 2],
+				['LaTeX', 1]
+			]}
+		/>
+	</div>
 </ProjectPage>

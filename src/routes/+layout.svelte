@@ -15,7 +15,7 @@
 		<meta name="viewport" content="initial-scale=1, minimum-scale=1" />
 	</head>
 	<body>
-		<nav class="bg-gray-800 text-white h-auto w-full sticky top-0 left-0 z-10">
+		<nav class="bg-gray-800 text-white h-auto w-full sticky top-0 left-0 z-50">
 			<ul class="md:flex relative">
 				<div class="flex mr-auto">
 					<a href="/" class="mr-auto"
@@ -36,18 +36,23 @@
 						</svg>
 					</button>
 				</div>
-				<hr class:hidden class="border-gray-950" />
-				<div id="menu" class:hidden class="absolute bg-gray-800 w-full md:flex md:static md:w-auto">
-					<a on:click={close_menu} href="/skills"><li class="p-3 hover:bg-gray-700">Skills</li></a>
-					<a on:click={close_menu} href="/tech"
-						><li class="p-3 hover:bg-gray-700">Technologies</li></a
-					>
-					<a on:click={close_menu} href="/projects"
-						><li class="p-3 hover:bg-gray-700">Projects</li></a
-					>
-					<a on:click={close_menu} href="/about-me"
-						><li class="p-3 hover:bg-gray-700">About Me</li></a
-					>
+				<div
+					id="menu"
+					class:hidden
+					class="absolute bg-gray-800 w-full border-t border-gray-950 md:border-t-0 md:flex md:static md:w-auto"
+				>
+					<a on:click={close_menu} href="/skills">
+						<li class="p-3 hover:bg-gray-700">Skills</li>
+					</a>
+					<a on:click={close_menu} href="/tech">
+						<li class="p-3 hover:bg-gray-700">Technologies</li>
+					</a>
+					<a on:click={close_menu} href="/projects">
+						<li class="p-3 hover:bg-gray-700">Projects</li>
+					</a>
+					<a on:click={close_menu} href="/about-me">
+						<li class="p-3 hover:bg-gray-700">About Me</li>
+					</a>
 				</div>
 			</ul>
 		</nav>
