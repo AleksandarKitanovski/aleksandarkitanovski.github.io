@@ -24,11 +24,14 @@
 	<hr class="border-gray-800" />
 	<article class="mt-6">
 		<h2 class="text-lg font-bold">Overview</h2>
-		<div class="flex mb-3">
-			<div class="w-auto md:w-1/3 text-justify border-r border-gray-800 pr-3 mr-3">
+		<div class="md:flex mb-3">
+			<div
+				class="text-justify pr-3 mr-3 border-b border-gray-800 md:border-b-0 md:w-3/5 md:border-r"
+			>
 				<slot name="desc" />
 			</div>
 			<div class="">
+				<h2 class="text-base font-bold">Info:</h2>
 				<div class="font-bold flex flex-col">
 					<span>
 						Company:
