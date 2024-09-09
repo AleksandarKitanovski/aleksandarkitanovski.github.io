@@ -41,7 +41,7 @@
 			</li>
 			<li class="m-3">
 				E-mail:
-				<button class="text-orange-600 hover:text-orange-400" on:click={copyMail}>
+				<button class="text-orange-600 hover:text-orange-400 cursor-copy" on:click={copyMail}>
 					kitanovski.aleksandar@yahoo.com
 				</button>
 			</li>
