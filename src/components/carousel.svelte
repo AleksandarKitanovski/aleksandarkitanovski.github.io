@@ -24,28 +24,20 @@
 	style="background-image: url({slides[selected].img}); transition: background-image 0.5s ease-out;"
 >
 	<button
-		class="absolute top-10 lg:top-auto lg:left-10 opacity-50 hover:opacity-100 stroke-black hover:stroke-gray-400 transition-all"
+		class="absolute left-0 w-1/3 h-full transition-all
+		       lg:h-auto lg:w-auto lg:left-10"
 		on:click={prev_slide}
+		type="button"
 	>
 		<svg
-			class="hidden lg:inline"
+			class="hidden lg:inline stroke-black stroke-[3] opacity-70 hover:stroke-[4]"
 			width="130px"
 			height="130px"
 			viewBox="0 0 24 24"
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
 		>
-			<path d="M15 6L9 12L15 18" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-		</svg>
-		<svg
-			class="lg:hidden"
-			width="130px"
-			height="130px"
-			viewBox="0 0 24 24"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-		>
-			<path d="M6 15L12 9L18 15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+			<path d="M15 6L9 12L15 18" stroke-linecap="round" stroke-linejoin="round" />
 		</svg>
 	</button>
 	<CarouselSlide
@@ -54,28 +46,20 @@
 		date={slides[selected].date}
 	/>
 	<button
-		class="absolute bottom-10 lg:bottom-auto lg:right-10 opacity-50 hover:opacity-100 stroke-black hover:stroke-gray-400 transition-all"
+		class="absolute right-0 w-1/3 h-full transition-all
+               lg:h-auto lg:w-auto lg:right-10"
 		on:click={next_slide}
+		type="button"
 	>
 		<svg
-			class="hidden lg:inline"
+			class="hidden lg:inline stroke-black stroke-[3] opacity-70 hover:stroke-[4]"
 			width="130px"
 			height="130px"
 			viewBox="0 0 24 24"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
 		>
-			<path d="M9 6L15 12L9 18" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-		</svg>
-		<svg
-			class="lg:hidden"
-			width="130px"
-			height="130px"
-			viewBox="0 0 24 24"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-		>
-			<path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+			<path d="M9 6L15 12L9 18" stroke-linecap="round" stroke-linejoin="round" />
 		</svg>
 	</button>
 </div>

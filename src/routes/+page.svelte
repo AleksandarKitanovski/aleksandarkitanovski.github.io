@@ -1,16 +1,7 @@
 <script lang="ts">
 	import Carousel from '../components/carousel.svelte';
-	import List from '../components/list.svelte';
-	import ListItem from '../components/list_item.svelte';
 </script>
 
-<div class="hidden">
-	<List>
-		<ListItem title="Jul, 2021 - Started an Internship at Nebb"></ListItem>
-		<ListItem title="Mar, 2022 - Started Working at GrabIT"></ListItem>
-		<ListItem title="May, 2024 - Started Working at Ludotech"></ListItem>
-	</List>
-</div>
 <Carousel
 	slides={[
 		{
@@ -49,6 +40,14 @@
 			img: '/high.jpg'
 		},
 		{
+			title: 'College',
+			text: `I studied Computer Science at FINKI, taking every math elective I could get my hands on. Naturally
+			my focus was mostly on applied math, data science and artificial intelligence. My graduating thesis was
+			"Comparison of turbo codes with random codes based on quasigroups for transmission through a Gaussian channel".`,
+			date: 'October, 2018 - April, 2023',
+			img: '/college.jpg'
+		},
+		{
 			title: 'Internship at Nebb',
 			text: ``,
 			date: 'July, 2021 - October , 2023',
@@ -58,7 +57,7 @@
 			title: 'Joined GrabIT',
 			text: ``,
 			date: 'March, 2022 - April, 2024',
-			img: '/grabit.png'
+			img: '/college.jpg'
 		},
 		{
 			title: 'Joined Ludotech',

@@ -46,7 +46,8 @@
 					legend: {
 						display: true
 					}
-				}
+				},
+				borderColor: '#f3f4f6'
 			}
 		});
 	};

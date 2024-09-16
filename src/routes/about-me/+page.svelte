@@ -1,27 +1,19 @@
-<script>
-	function copyMail() {
-		navigator.clipboard.writeText('kitanovski.aleksandar@yahoo.com');
-		alert('Mail coppied');
-	}
-</script>
-
-<div class="my-10 mx-4 md:mx-28 lg:mx-56">
+<div class="my-10 mx-4 md:mx-32 lg:mx-96">
 	<article>
-		<h1 class="text-2xl text-orange-600">Career Summary</h1>
-		<p class="text-justify">
-			I have a bachelors degree in Computer Science from FCSE, and 2 years work experience as a Data
-			Scientist. I love to learn and apply my knowledge, I like working in collaborative
+		<h1 class="text-4xl lg:text-5xl text-orange-600 mb-2">Career Summary</h1>
+		<p class="text-justify text-lg lg:text-xl">
+			I have a bachelors degree in Computer Science from FINKI, and 2 years work experience as a
+			Data Scientist. I love to learn and apply my knowledge, I like working in collaborative
 			environments and I am a great team player. The focus of my studies was mostly Data Science and
-			Applied Mathematics, while my work experience includes chat-bot development and data analysis
-			(at GrabIT) and developing systems for time series anomaly detection (at Nebb). During my
-			studies at FCSE I also published three research papers, two of them at the CiiT Conference in
-			Macedonia, and one at the MIPRO Convention in Croatia.
+			Applied Mathematics, while my work experience includes web development at Ludotech, chat-bot
+			development and data analysis (at GrabIT) and developing systems for time series anomaly
+			detection (at Nebb). During my studies at FCSE I also published three research papers, two of
+			them at the CiiT Conference in Macedonia, and one at the MIPRO Convention in Croatia.
 		</p>
 	</article>
 	<article class="mt-10">
-		<h1 class="text-2xl text-orange-600">Hobbies</h1>
-
-		<p class="text-justify">
+		<h1 class="text-4xl lg:text-5xl text-orange-600 mb-2">Hobbies</h1>
+		<p class="text-justify text-lg lg:text-xl">
 			I have several hobbies that keep life exciting and fulfilling. I'm an avid gamer, immersing
 			myself in virtual worlds and challenging adventures. I also love reading, which offers an
 			escape into captivating narratives and thought-provoking ideas. Chess is something I've loved
@@ -30,7 +22,7 @@
 			more than 10 years ago.
 		</p>
 	</article>
-	<article class="mt-10">
+	<!-- <article class="mt-10">
 		<h1 class="text-2xl text-orange-600">Contact</h1>
 		<p class="text-justify">
 			You can contact me by E-mail or LinkedIn, also feel free to look around my github:
@@ -55,5 +47,5 @@
 				</button>
 			</li>
 		</ul>
-	</article>
+	</article> -->
 </div>
