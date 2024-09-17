@@ -24,13 +24,12 @@
 	style="background-image: url({slides[selected].img}); transition: background-image 0.5s ease-out;"
 >
 	<button
-		class="absolute left-0 w-1/3 h-full transition-all
-		       lg:h-auto lg:w-auto lg:left-10"
+		class="absolute transition-all h-auto w-auto bottom-10 left-10 lg:left-[20%] md:bottom-auto"
 		on:click={prev_slide}
 		type="button"
 	>
 		<svg
-			class="hidden lg:inline stroke-black stroke-[3] opacity-70 hover:stroke-[4]"
+			class="mix-blend-difference stroke-white stroke-[2] lg:stroke-[3] hover:lg:stroke-[4]"
 			width="130px"
 			height="130px"
 			viewBox="0 0 24 24"
@@ -46,13 +45,12 @@
 		date={slides[selected].date}
 	/>
 	<button
-		class="absolute right-0 w-1/3 h-full transition-all
-               lg:h-auto lg:w-auto lg:right-10"
+		class="absolute transition-all h-auto w-auto bottom-10 right-10 lg:right-[20%] md:bottom-auto"
 		on:click={next_slide}
 		type="button"
 	>
 		<svg
-			class="hidden lg:inline stroke-black stroke-[3] opacity-70 hover:stroke-[4]"
+			class="mix-blend-difference stroke-white stroke-[2] lg:stroke-[3] hover:lg:stroke-[4]"
 			width="130px"
 			height="130px"
 			viewBox="0 0 24 24"
