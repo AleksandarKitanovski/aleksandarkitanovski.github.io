@@ -24,14 +24,15 @@
 	style="background-image: url({slides[selected].img}); transition: background-image 0.5s ease-out;"
 >
 	<button
-		class="absolute transition-all h-auto w-auto bottom-10 left-10 lg:left-[20%] md:bottom-auto"
+		class="absolute transition-all h-auto w-auto bottom-28 left-10 lg:left-[20%] md:bottom-auto
+		       bg-gray-800 bg-opacity-85 rounded-lg"
 		on:click={prev_slide}
 		type="button"
 	>
 		<svg
-			class="mix-blend-difference stroke-white stroke-[2] lg:stroke-[3] hover:lg:stroke-[4]"
-			width="130px"
-			height="130px"
+			class="stroke-orange-600 stroke-1 w-20 h-20
+			       md:w-24 md:h-24
+			       lg:w-28 lg:h-28 lg:stroke-2 hover:lg:stroke-[3]"
 			viewBox="0 0 24 24"
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
@@ -45,14 +46,15 @@
 		date={slides[selected].date}
 	/>
 	<button
-		class="absolute transition-all h-auto w-auto bottom-10 right-10 lg:right-[20%] md:bottom-auto"
+		class="absolute transition-all h-auto w-auto bottom-28 right-10 lg:right-[20%] md:bottom-auto
+               bg-gray-800 bg-opacity-85 rounded-lg"
 		on:click={next_slide}
 		type="button"
 	>
 		<svg
-			class="mix-blend-difference stroke-white stroke-[2] lg:stroke-[3] hover:lg:stroke-[4]"
-			width="130px"
-			height="130px"
+			class="stroke-orange-600 stroke-1 w-20 h-20
+			       md:w-24 md:h-24
+				   lg:w-28 lg:h-28 lg:stroke-2 hover:lg:stroke-[3]"
 			viewBox="0 0 24 24"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-<div class="my-10 mx-4 md:mx-32 lg:mx-96">
+<div class="mt-2 mb-16 lg:my-10 mx-4 md:mx-32 lg:mx-80">
 	<article>
 		<h1 class="text-4xl lg:text-5xl text-orange-600 mb-2">Career Summary</h1>
 		<p class="text-justify text-lg lg:text-xl">
@@ -22,30 +22,4 @@
 			more than 10 years ago.
 		</p>
 	</article>
-	<!-- <article class="mt-10">
-		<h1 class="text-2xl text-orange-600">Contact</h1>
-		<p class="text-justify">
-			You can contact me by E-mail or LinkedIn, also feel free to look around my github:
-		</p>
-		<ul class="flex flex-col p-3 m-3 list-disc">
-			<li class="m-3">
-				LinkedIn: <a
-					href="https://www.linkedin.com/in/aleksandar-kitanovski/"
-					class="text-orange-600 hover:text-orange-400">Aleksandar Kitanovski</a
-				>
-			</li>
-			<li class="m-3">
-				Github: <a
-					href="https://github.com/AleksandarKitanovski"
-					class="text-orange-600 hover:text-orange-400">AleksandarKitanovski</a
-				>
-			</li>
-			<li class="m-3">
-				E-mail:
-				<button class="text-orange-600 hover:text-orange-400 cursor-copy" on:click={copyMail}>
-					kitanovski.aleksandar@yahoo.com
-				</button>
-			</li>
-		</ul>
-	</article> -->
 </div>

@@ -12,7 +12,7 @@
 			on Krypton - and like every good neighbour's kid he always has
 			to one up me...`,
 			date: 'September, 1999',
-			img: '/space.jpg'
+			img: '/space.png'
 		},
 		{
 			title: 'Elementary School',
@@ -49,21 +49,26 @@
 		},
 		{
 			title: 'Internship at Nebb',
-			text: ``,
+			text: `I did a three month Machine Learning internship at Nebb (now called Init.). The project I worked on
+			was anomaly detection on time series data using unsupervised machine learning models. This was the first time
+			I got to apply my skills in real world settings.`,
 			date: 'July, 2021 - October , 2023',
-			img: '/college.jpg'
+			img: '/nebb.jpg'
 		},
 		{
 			title: 'Joined GrabIT',
-			text: ``,
+			text: `I got my first job at GrabIT, where I worked for around 2 years as a data scientist. Most of the
+			work I did here was in chat-bot development, at first using Transformer models and text classification, and
+			then we upgraded to Large Language Models.`,
 			date: 'March, 2022 - April, 2024',
-			img: '/college.jpg'
+			img: '/grabit.jpg'
 		},
 		{
 			title: 'Joined Ludotech',
-			text: ``,
+			text: `When the time to change pace came, I decided to try my hand at something different entirely - I
+			started working at Ludotech as a web developer, where I make websites using Rust, HTMX and TailwindCSS.`,
 			date: 'May, 2024 - Present',
-			img: '/college.jpg'
+			img: '/ludotech.jpg'
 		}
 	]}
 />
