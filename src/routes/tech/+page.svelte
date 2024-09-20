@@ -2,7 +2,6 @@
 	import BarChart from '../../components/bar_chart.svelte';
 </script>
 
-<!-- '#2E86AB', '#92C9B1', '#A2FAA3', '#FFC857', '#E5625E' -->
 <div class="m-3 mb-20 lg:grid lg:grid-cols-2 lg:gap-4 lg:auto-rows-fr xl:grid-cols-3">
 	<BarChart
 		title="Programming Languages"

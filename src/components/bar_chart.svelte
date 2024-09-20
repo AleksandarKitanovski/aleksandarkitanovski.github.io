@@ -46,7 +46,7 @@
 		<div
 			class="relative w-[80vw] h-[33vh] md:w-[60vw] md:h-[50vh] lg:h-[40vh] lg:w-[40vw] xl:h-[29vh] xl:w-[25vw] flex items-center justify-center"
 		>
-			<canvas use:renderChart></canvas>
+			<canvas use:renderChart />
 		</div>
 	</div>
 </Card>
