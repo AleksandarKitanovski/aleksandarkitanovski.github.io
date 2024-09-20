@@ -4,7 +4,6 @@
 	export let duration;
 	export let company;
 	export let href;
-	export let width;
 	export let paper = '';
 	export let repo = '';
 	export let repo_name = '';
@@ -12,7 +11,7 @@
 	let project_name = title.toLowerCase().replaceAll(/[^0-9a-z]/g, '_');
 </script>
 
-<Card {title} {width}>
+<Card {title}>
 	<div class="flex justify-between">
 		<div>
 			<h2 class="font-bold text-lg mb-1">Duration: <span class="font-normal">{duration}</span></h2>
@@ -42,5 +41,7 @@
 			</a>
 		</h3>
 	{/if}
-	<slot></slot>
+	<div class="text-justify">
+		<slot></slot>
+	</div>
 </Card>

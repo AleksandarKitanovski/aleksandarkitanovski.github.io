@@ -8,7 +8,6 @@
 		duration="~6 months"
 		company="GrabIT"
 		href="https://www.grabit.io"
-		width="auto"
 	>
 		The goal of this project was developing a chatbot which utilized a Large Language Model which
 		would replace an older chatbot system. The work on this project included analyzing and preparing
@@ -22,7 +21,6 @@
 		duration="~1 year"
 		company="GrabIT"
 		href="https://www.grabit.io"
-		width="auto"
 	>
 		The goal of this project was developing a chatbot which would lessen the workload of human
 		agents doing the same job as the bot. The project included analyzing KPIs with Tableau and SQL,
@@ -33,7 +31,6 @@
 		duration="3 months"
 		company="Init. (ex Nebb)"
 		href="https://initgroup.com/"
-		width="auto"
 	>
 		The goal of this project was to develop a model for detecting anomalies in time series data,
 		which would be used in a monitoring system. The project included analyzing and visualizing data
@@ -46,7 +43,6 @@
 		company="FINKI"
 		href="https://www.finki.ukim.mk"
 		paper="https://repository.ukim.mk/handle/20.500.12188/27385"
-		width="auto"
 	>
 		The omnipresence of Android devices and the amount of sensitive information kept in them makes
 		detecting malware in Android applications crucial. In this paper, the efficacy of using machine
@@ -63,7 +59,6 @@
 		company="FINKI"
 		href="https://www.finki.ukim.mk"
 		paper="https://repository.ukim.mk/bitstream/20.500.12188/28593/1/MIPRO2023_Mirceva_fake_news.pdf"
-		width="auto"
 	>
 		The goal of this project was to fine-tune two transformer models, namely DistilBERT and RoBERTa,
 		and compare their effectiveness in fake news detection. Both models were trained on a labelled
@@ -80,7 +75,6 @@
 		paper="https://repository.ukim.mk/handle/20.500.12188/25690"
 		repo="https://github.com/stefanandonov/log2graph"
 		repo_name="log2graph"
-		width="auto"
 	>
 		The goal of this project was to develop a system which could create graph representations of
 		system logs. These graph representations could then be used in logs anomaly detection, logs
