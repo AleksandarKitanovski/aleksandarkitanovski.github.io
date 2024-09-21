@@ -1,6 +1,7 @@
 <script>
 	import DoughnutChart from '../../../components/doughnut_chart.svelte';
 	import ProjectPage from '../../../components/project_page.svelte';
+	import RadarChart from '../../../components/radar_chart.svelte';
 </script>
 
 <ProjectPage
@@ -41,4 +42,11 @@
 			]}
 		/>
 	</div>
+	<RadarChart
+		slot="skills"
+		dataPoints={{
+			labels: ['Network Science', 'Data Processing', 'Data Visualziation', 'Text Processing'],
+			data: [7, 6, 8, 5]
+		}}
+	/>
 </ProjectPage>

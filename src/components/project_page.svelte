@@ -61,8 +61,12 @@
 		<slot name="tech" />
 	</article>
 	<hr class="border-gray-800" />
-	<article class="mt-6">
+	<article class="mt-6 pb-12">
 		<h2 class="text-lg font-bold">Areas of expertise</h2>
-		<slot name="skills" />
+		<div class="flex justify-center items-center">
+			<div class="flex items-center justify-center w-[100vw] h-[29vh] md:h-[50vh] lg:h-[33vh]">
+				<slot name="skills" />
+			</div>
+		</div>
 	</article>
 </div>

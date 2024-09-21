@@ -36,7 +36,6 @@
 				aspectRatio: 1,
 				maintainAspectRatio: false,
 				responsive: true,
-
 				plugins: {
 					title: {
 						display: true,
@@ -53,6 +52,6 @@
 	};
 </script>
 
-<div class="relative w-[95vw] h-[30vh] md:h-[40vh] lg:w-[30vw]">
+<div class="relative w-[95vw] h-[30vh] md:h-[50vh] lg:h-[30vh] lg:w-[30vw]">
 	<canvas use:renderChart></canvas>
 </div>
