@@ -20,7 +20,7 @@
 
 <div
 	bind:this={el}
-	class="relative flex items-center justify-center carousel_slide"
+	class="relative flex items-start md:items-center justify-center carousel_slide"
 	style="background-image: url({slides[selected].img}); transition: background-image 0.5s ease-out;"
 >
 	<button
