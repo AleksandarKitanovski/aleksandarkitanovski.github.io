@@ -89,7 +89,7 @@
 
 <slot />
 
-<nav class="flex justify-end items-center gap-x-5 pr-5 pb-2 fixed bottom-0 w-full">
+<nav class="flex justify-end items-center gap-x-3 lg:gap-x-5 pr-5 pb-2 fixed bottom-0 w-full">
 	<a
 		href="https://github.com/AleksandarKitanovski"
 		class="fill-white bg-gray-800 bg-opacity-80 rounded-2xl p-2 lg:p-3"
