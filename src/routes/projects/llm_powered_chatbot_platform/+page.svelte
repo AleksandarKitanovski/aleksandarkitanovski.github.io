@@ -5,24 +5,23 @@
 </script>
 
 <ProjectPage
-	title="LLM System Development"
+	title="LLM-Powered Chatbot Platform"
 	company="GrabIT"
 	duration="About 6 months"
 	href="https://www.grabit.io"
 >
 	{#snippet desc()}
-		<p >
-			The goal of this project was developing a chatbot which utilized a Large Language Model which
-			would replace an older chatbot system. The work on this project included analyzing and preparing
-			datasets for fine-tuing LLMs, fine-tuinging and evaluatign LLMs, prompt engineering, backend
-			development with FastAPI, continerization with Docker, setting up a vector database for
-			Retreival Augmented Generation, setting up a MongoDB for keeping historical context, and using
-			zero-shot classification transformers for evaluating the LLM output.
+		<p>
+			Developed a next-generation chatbot to replace a legacy system, leveraging large language
+			models for improved responses. Responsibilities included dataset preparation, fine-tuning and
+			evaluating LLMs, and prompt engineering. Built the backend with FastAPI, containerized with
+			Docker, and integrated MongoDB for conversation history. Implemented a vector database to
+			enable Retrieval-Augmented Generation and applied zero-shot classification transformers for
+			automated output evaluation.
 		</p>
 	{/snippet}
 	{#snippet tech()}
 		<div
-			
 			class="flex flex-col mt-3 mb-6 justify-evenly space-y-8 lg:space-y-0 lg:flex-row lg:space-x-4"
 		>
 			<DoughnutChart
@@ -56,7 +55,6 @@
 	{/snippet}
 	{#snippet skills()}
 		<RadarChart
-			
 			dataPoints={{
 				labels: [
 					'Large Language Models',

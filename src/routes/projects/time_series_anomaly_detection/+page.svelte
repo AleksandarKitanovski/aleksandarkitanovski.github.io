@@ -11,16 +11,15 @@
 	href="https://initgroup.com/"
 >
 	{#snippet desc()}
-		<p >
-			The goal of this project was to develop a model for detecting anomalies in time series data,
-			which would be used in a monitoring system. The project included analyzing and visualizing data
-			with Pandas, Statsmodel and Seaborn, and building ML Models for anomaly detection using
-			Scikit-learn.
+		<p>
+			Worked on a model to detect anomalies in time series data for use in a monitoring system.
+			Analyzed and visualized datasets using Pandas, Statsmodels, and Seaborn, and built machine
+			learning models for anomaly detection with Scikit-learn to identify unusual patterns and
+			trends.
 		</p>
 	{/snippet}
 	{#snippet tech()}
 		<div
-			
 			class="flex flex-col mt-3 mb-6 justify-evenly space-y-8 lg:space-y-0 lg:flex-row lg:space-x-4"
 		>
 			<DoughnutChart title="Programming Languages" data={[['Python', 1]]} />
@@ -47,7 +46,6 @@
 	{/snippet}
 	{#snippet skills()}
 		<RadarChart
-			
 			dataPoints={{
 				labels: [
 					'Time Series',

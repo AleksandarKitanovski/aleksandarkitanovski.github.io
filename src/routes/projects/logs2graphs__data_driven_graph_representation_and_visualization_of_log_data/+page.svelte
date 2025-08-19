@@ -14,18 +14,15 @@
 	repo_name="log2graph"
 >
 	{#snippet desc()}
-		<p >
-			The goal of this project was to develop a system which could create graph representations of
-			system logs. These graph representations could then be used in logs anomaly detection, logs
-			prediction, and root cause analysis guided by logs. Therefore in this paper, we present
-			logs2graphs, an open-source system for the creation and visualization of such graph
-			representations of log messages, which is compatible with several publicly available log sources
-			and expandable to other log sources.
+		<p>
+			Helped develop an open-source system, Logs2Graphs, to create graph representations of system
+			logs for anomaly detection, log prediction, and root cause analysis. The system supports
+			multiple publicly available log sources and is designed to be easily extended to additional
+			sources, enabling structured visualization and analysis of log data.
 		</p>
 	{/snippet}
 	{#snippet tech()}
 		<div
-			
 			class="flex flex-col mt-3 mb-6 justify-evenly space-y-8 lg:space-y-0 lg:flex-row lg:space-x-4"
 		>
 			<DoughnutChart title="Programming Languages" data={[['Python', 1]]} />
@@ -48,7 +45,6 @@
 	{/snippet}
 	{#snippet skills()}
 		<RadarChart
-			
 			dataPoints={{
 				labels: ['Network Science', 'Data Processing', 'Data Visualziation', 'Text Processing'],
 				data: [7, 6, 8, 5]

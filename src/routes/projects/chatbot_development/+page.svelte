@@ -11,15 +11,15 @@
 	href="https://www.grabit.io"
 >
 	{#snippet desc()}
-		<p >
-			The goal of this project was developing a chatbot which would lessen the workload of human
-			agents doing the same job as the bot. The project included analyzing KPIs with Tableau and SQL,
-			analyzing textual data with Python, as well as fine-tuning Transformer Models.
+		<p>
+			Helped develop a chatbot designed to reduce the workload of human agents by automating routine
+			support tasks. The project involved analyzing KPIs with Tableau and SQL, performing text
+			analysis with Python, and fine-tuning Transformer models to improve response quality and
+			coverage.
 		</p>
 	{/snippet}
 	{#snippet tech()}
 		<div
-			
 			class="flex flex-col mt-3 mb-6 justify-evenly space-y-8 lg:space-y-0 lg:flex-row lg:space-x-4"
 		>
 			<DoughnutChart
@@ -51,7 +51,6 @@
 	{/snippet}
 	{#snippet skills()}
 		<RadarChart
-			
 			dataPoints={{
 				labels: [
 					'Chatbots',

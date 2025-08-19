@@ -12,18 +12,15 @@
 	paper="https://repository.ukim.mk/bitstream/20.500.12188/28593/1/MIPRO2023_Mirceva_fake_news.pdf"
 >
 	{#snippet desc()}
-		<p >
-			The goal of this project was to fine-tune two transformer models, namely DistilBERT and RoBERTa,
-			and compare their effectiveness in fake news detection. Both models were trained on a labelled
-			dataset of news articles and evaluated on two datasets, comparing their performance in terms of
-			accuracy, precision, recall and F1-score. The results of the experiments showed that both models
-			perform well, with RoBERTa achieving slightly better results overall. This project resulted in a
-			paper that was published at the MIPRO Convention in Croatia.
+		<p>
+			Fine-tuned and compared DistilBERT and RoBERTa models for fake news detection using a labeled
+			dataset of news articles. Evaluated model performance on multiple datasets with accuracy,
+			precision, recall, and F1-score metrics, with RoBERTa achieving slightly superior results. The
+			work culminated in a research paper published at the MIPRO Convention in Croatia.
 		</p>
 	{/snippet}
 	{#snippet tech()}
 		<div
-			
 			class="flex flex-col mt-3 mb-6 justify-evenly space-y-8 lg:space-y-0 lg:flex-row lg:space-x-4"
 		>
 			<DoughnutChart title="Programming Languages" data={[['Python', 1]]} />
@@ -48,7 +45,6 @@
 	{/snippet}
 	{#snippet skills()}
 		<RadarChart
-			
 			dataPoints={{
 				labels: [
 					'Text Processing',
