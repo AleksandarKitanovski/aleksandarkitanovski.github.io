@@ -1,6 +1,10 @@
 <script lang="ts">
 	import Chart from 'chart.js/auto';
-	export let dataPoints: { labels: string[]; data: number[] } = { labels: [], data: [] };
+	interface Props {
+		dataPoints?: { labels: string[]; data: number[] };
+	}
+
+	let { dataPoints = { labels: [], data: [] } }: Props = $props();
 
 	const data = {
 		labels: dataPoints.labels,
@@ -46,4 +50,4 @@
 	};
 </script>
 
-<canvas use:renderChart />
+<canvas use:renderChart></canvas>

@@ -1,11 +1,17 @@
 <script>
-	export let title;
-	export let href;
-	export let company;
-	export let duration;
-	export let paper = '';
-	export let repo = '';
-	export let repo_name = '';
+	/** @type {{title: any, href: any, company: any, duration: any, paper?: string, repo?: string, repo_name?: string, desc?: import('svelte').Snippet, tech?: import('svelte').Snippet, skills?: import('svelte').Snippet}} */
+	let {
+		title,
+		href,
+		company,
+		duration,
+		paper = '',
+		repo = '',
+		repo_name = '',
+		desc,
+		tech,
+		skills
+	} = $props();
 </script>
 
 <div class="m-3">
@@ -28,7 +34,7 @@
 			<div
 				class="text-justify pr-3 mr-3 border-b border-gray-800 md:border-b-0 md:w-3/5 md:border-r"
 			>
-				<slot name="desc" />
+				{@render desc?.()}
 			</div>
 			<div class="">
 				<h2 class="text-base font-bold">Info:</h2>
@@ -58,14 +64,14 @@
 	<hr class="border-gray-800" />
 	<article class="mt-6">
 		<h2 class="text-lg font-bold">Technologies</h2>
-		<slot name="tech" />
+		{@render tech?.()}
 	</article>
 	<hr class="border-gray-800" />
 	<article class="mt-6 pb-12">
 		<h2 class="text-lg font-bold">Areas of expertise</h2>
 		<div class="flex justify-center items-center">
 			<div class="flex items-center justify-center w-[100vw] h-[29vh] md:h-[50vh] lg:h-[33vh]">
-				<slot name="skills" />
+				{@render skills?.()}
 			</div>
 		</div>
 	</article>

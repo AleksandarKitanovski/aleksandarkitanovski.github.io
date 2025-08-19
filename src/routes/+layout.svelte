@@ -1,6 +1,11 @@
 <script lang="ts">
 	import '../app.css';
-	let hidden = true;
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
+	let hidden = $state(true);
 	function toggle_menu() {
 		hidden = !hidden;
 	}
@@ -23,10 +28,10 @@
 <nav class="bg-gray-800 text-white h-auto w-full sticky top-0 left-0 z-50">
 	<ul class="md:flex relative">
 		<div class="flex mr-auto">
-			<a href="/" class="mr-auto" on:click={close_menu}>
+			<a href="/" class="mr-auto" onclick={close_menu}>
 				<li class="p-3 hover:bg-gray-700">Aleksandar Kitanovski</li>
 			</a>
-			<button type="button" class="md:hidden p-2 hover:bg-gray-700" on:click={toggle_menu}>
+			<button type="button" class="md:hidden p-2 hover:bg-gray-700" onclick={toggle_menu}>
 				{#if hidden}
 					<svg
 						width="32px"
@@ -71,23 +76,23 @@
 			class:hidden
 			class="absolute bg-gray-800 w-full border-t border-gray-950 md:border-t-0 md:flex md:static md:w-auto"
 		>
-			<a on:click={close_menu} href="/skills">
+			<a onclick={close_menu} href="/skills">
 				<li class="p-3 hover:bg-gray-700">Skills</li>
 			</a>
-			<a on:click={close_menu} href="/tech">
+			<a onclick={close_menu} href="/tech">
 				<li class="p-3 hover:bg-gray-700">Technologies</li>
 			</a>
-			<a on:click={close_menu} href="/projects">
+			<a onclick={close_menu} href="/projects">
 				<li class="p-3 hover:bg-gray-700">Projects</li>
 			</a>
-			<a on:click={close_menu} href="/about-me">
+			<a onclick={close_menu} href="/about-me">
 				<li class="p-3 hover:bg-gray-700">About Me</li>
 			</a>
 		</div>
 	</ul>
 </nav>
 
-<slot />
+{@render children?.()}
 
 <nav class="flex justify-end items-center gap-x-3 lg:gap-x-5 pr-5 pb-2 fixed bottom-0 w-full">
 	<a
@@ -137,7 +142,7 @@
 		</svg>
 	</a>
 	<button
-		on:click={copyMail}
+		onclick={copyMail}
 		class="cursor-copy fill-white bg-gray-800 bg-opacity-80 rounded-2xl p-2 lg:p-3"
 	>
 		<svg

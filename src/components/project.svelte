@@ -1,12 +1,16 @@
 <script>
 	import Card from './card.svelte';
-	export let title;
-	export let duration;
-	export let company;
-	export let href;
-	export let paper = '';
-	export let repo = '';
-	export let repo_name = '';
+	/** @type {{title: any, duration: any, company: any, href: any, paper?: string, repo?: string, repo_name?: string, children?: import('svelte').Snippet}} */
+	let {
+		title,
+		duration,
+		company,
+		href,
+		paper = '',
+		repo = '',
+		repo_name = '',
+		children
+	} = $props();
 
 	let project_name = title.toLowerCase().replaceAll(/[^0-9a-z]/g, '_');
 </script>
@@ -42,6 +46,6 @@
 		</h3>
 	{/if}
 	<div class="text-justify">
-		<slot></slot>
+		{@render children?.()}
 	</div>
 </Card>

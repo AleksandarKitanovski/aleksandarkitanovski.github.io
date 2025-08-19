@@ -1,7 +1,11 @@
 <script lang="ts">
 	import Chart from 'chart.js/auto';
-	export let title: string;
-	export let data: [string, number][];
+	interface Props {
+		title: string;
+		data: [string, number][];
+	}
+
+	let { title, data }: Props = $props();
 
 	const colors = ['#2E86AB', '#92C9B1', '#A2FAA3', '#FFC857', '#E5625E'];
 

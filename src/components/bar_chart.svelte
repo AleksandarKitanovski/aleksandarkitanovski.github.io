@@ -1,6 +1,10 @@
 <script lang="ts">
 	import Chart from 'chart.js/auto';
-	export let data: { technology: string; confidence: number }[] = [];
+	interface Props {
+		data?: { technology: string; confidence: number }[];
+	}
+
+	let { data = [] }: Props = $props();
 
 	const renderChart = (node: HTMLCanvasElement) => {
 		new Chart(node, {
@@ -39,4 +43,4 @@
 	};
 </script>
 
-<canvas use:renderChart />
+<canvas use:renderChart></canvas>

@@ -1,9 +1,13 @@
 <script lang="ts">
 	import CarouselSlide from './carousel_slide.svelte';
 
-	let selected = 0;
-	export let slides: { title: string; text: string; date: string; img: string }[] = [];
-	let el: HTMLElement;
+	let selected = $state(0);
+	interface Props {
+		slides?: { title: string; text: string; date: string; img: string }[];
+	}
+
+	let { slides = [] }: Props = $props();
+	let el: HTMLElement = $state();
 
 	function prev_slide() {
 		if (selected > 0) {
@@ -26,7 +30,7 @@
 	<button
 		class="absolute transition-all h-auto w-auto bottom-36 left-10 sm:left-3 lg:left-[20%] md:bottom-auto
 		       bg-gray-800 bg-opacity-85 rounded-lg"
-		on:click={prev_slide}
+		onclick={prev_slide}
 		type="button"
 	>
 		<svg
@@ -49,7 +53,7 @@
 	<button
 		class="absolute transition-all h-auto w-auto bottom-36 right-10 sm:right-3 lg:right-[20%] md:bottom-auto
                bg-gray-800 bg-opacity-85 rounded-lg"
-		on:click={next_slide}
+		onclick={next_slide}
 		type="button"
 	>
 		<svg
