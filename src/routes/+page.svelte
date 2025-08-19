@@ -59,14 +59,15 @@
 			title: 'Joined GrabIT',
 			text: `I got my first job at GrabIT, where I worked for around 2 years as a data scientist. Most of the
 			work I did here was in chat-bot development, at first using Transformer models and text classification, and
-			then we upgraded to Large Language Models.`,
+			later moving on to Large Language Models.`,
 			date: 'March, 2022 - April, 2024',
 			img: '/grabit.jpg'
 		},
 		{
 			title: 'Joined Ludotech',
-			text: `When the time to change pace came, I decided to try my hand at something different entirely - I
-			started working at Ludotech as a web developer, where I make websites using Rust, HTMX and TailwindCSS.`,
+			text: `When the time to change pace came, I decided to try my hand at something different entirely – 
+			I started working at Ludotech as a fullstack developer, building websites with Rust.
+			My work here also expanded to AI engineering - designing and implementing AI-driven features and applications using Python.`,
 			date: 'May, 2024 - Present',
 			img: '/ludotech.jpg'
 		}
