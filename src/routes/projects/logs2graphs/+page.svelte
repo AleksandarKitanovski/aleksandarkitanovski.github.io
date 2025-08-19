@@ -5,7 +5,7 @@
 </script>
 
 <ProjectPage
-	title="logs2graphs: Data-driven graph representation and visualization of log data"
+	title="logs2graphs"
 	company="FINKI"
 	duration="2 months"
 	href="https://www.finki.ukim.mk/"

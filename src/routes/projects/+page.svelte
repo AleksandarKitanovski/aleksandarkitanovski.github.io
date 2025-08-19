@@ -84,7 +84,7 @@
 		work culminated in a research paper published at the MIPRO Convention in Croatia.
 	</Project>
 	<Project
-		title="logs2graphs: Data-driven graph representation and visualization of log data"
+		title="logs2graphs"
 		duration="3 months"
 		company="FINKI"
 		href="https://www.finki.ukim.mk"
