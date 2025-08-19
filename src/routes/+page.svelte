@@ -12,7 +12,7 @@
 			on Krypton - and like every good neighbour's kid he always has
 			to one up me...`,
 			date: 'September, 1999',
-			img: '/space.png'
+			img: '/space.jpg'
 		},
 		{
 			title: 'Elementary School',
