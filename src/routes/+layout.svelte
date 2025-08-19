@@ -98,6 +98,7 @@
 	<a
 		aria-label="github"
 		href="https://github.com/AleksandarKitanovski"
+		target="_blank"
 		class="fill-white bg-gray-800 bg-opacity-80 rounded-2xl p-2 lg:p-3"
 	>
 		<svg
@@ -123,6 +124,7 @@
 	<a
 		aria-label="linkedin"
 		href="https://www.linkedin.com/in/aleksandar-kitanovski/"
+		target="_blank"
 		class="fill-white bg-gray-800 bg-opacity-80 rounded-2xl p-2 lg:p-3"
 	>
 		<svg

@@ -32,7 +32,7 @@
 		<div>
 			<h2 class="font-bold text-lg mb-1">Duration: <span class="font-normal">{duration}</span></h2>
 			<h2 class="font-bold text-lg mb-1">
-				Company: <a class="font-normal text-orange-600 hover:text-orange-400" {href}>{company}</a>
+				Company: <a class="font-normal text-orange-600 hover:text-orange-400" {href} target="_blank">{company}</a>
 			</h2>
 		</div>
 		<div>
@@ -46,13 +46,13 @@
 	</div>
 	{#if paper.length > 0}
 		<h3 class="font-semibold mb-1">
-			Paper available <a class="text-orange-600 hover:text-orange-400" href={paper}>here</a>
+			Paper available <a class="text-orange-600 hover:text-orange-400" href={paper} target="_blank">here</a>
 		</h3>
 	{/if}
 	{#if repo_name.length > 0}
 		<h3 class="font-semibold mb-1">
 			Git repo:
-			<a class="font-normal text-orange-600 hover:text-orange-400" href={repo}>
+			<a class="font-normal text-orange-600 hover:text-orange-400" href={repo} target="_blank">
 				{repo_name}
 			</a>
 		</h3>
