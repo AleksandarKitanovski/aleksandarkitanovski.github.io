@@ -4,17 +4,39 @@
 
 <div class="m-3 mb-20 lg:grid lg:grid-cols-2 lg:gap-4 lg:auto-rows-fr xl:grid-cols-3">
 	<Project
-		title="LLM System Development"
+		title="AI-Powered Sales Call Analysis Software"
+		duration="Ongoing (since 2024)"
+		company="Ludotech"
+		href="https://www.ludotech.co/en"
+	>
+		Worked od software for sales teams that automatically records calls, generates transcripts and
+		summaries, and extracts key insights using AI. The system is integrated with CRM platforms and
+		online meeting tools like Google Meet and Microsoft Teams to streamline workflow and improve
+		data accessibility.
+	</Project>
+	<Project
+		title="User Management Platform"
+		duration="~6 months"
+		company="Ludotech"
+		href="https://www.ludotech.co/en"
+	>
+		Helped develop a user management platform for an analytics company, providing secure account
+		creation, role-based access control, and team management features. Integrated the system with
+		Power BI to deliver interactive dashboards, enabling users to directly access and explore
+		analyst-created reports within the platform.
+	</Project>
+	<Project
+		title="LLM-Powered Chatbot Platform"
 		duration="~6 months"
 		company="GrabIT"
 		href="https://www.grabit.io"
 	>
-		The goal of this project was developing a chatbot which utilized a Large Language Model which
-		would replace an older chatbot system. The work on this project included analyzing and preparing
-		datasets for fine-tuing LLMs, fine-tuinging and evaluatign LLMs, prompt engineering, backend
-		development with FastAPI, continerization with Docker, setting up a vector database for
-		Retreival Augmented Generation, setting up a MongoDB for keeping historical context, and using
-		zero-shot classification transformers for evaluating the LLM output.
+		Developed a next-generation chatbot to replace a legacy system, leveraging large language models
+		for improved responses. Responsibilities included dataset preparation, fine-tuning and
+		evaluating LLMs, and prompt engineering. Built the backend with FastAPI, containerized with
+		Docker, and integrated MongoDB for conversation history. Implemented a vector database to enable
+		Retrieval-Augmented Generation and applied zero-shot classification transformers for automated
+		output evaluation.
 	</Project>
 	<Project
 		title="Chatbot Development"
@@ -22,9 +44,9 @@
 		company="GrabIT"
 		href="https://www.grabit.io"
 	>
-		The goal of this project was developing a chatbot which would lessen the workload of human
-		agents doing the same job as the bot. The project included analyzing KPIs with Tableau and SQL,
-		analyzing textual data with Python, as well as fine-tuning Transformer Models.
+		Helped develop a chatbot designed to reduce the workload of human agents by automating routine tasks.
+		The project involved analyzing KPIs with Tableau and SQL, performing text analysis with Python,
+		and fine-tuning Transformer models to improve response quality and coverage.
 	</Project>
 	<Project
 		title="Time Series Anomaly Detection"
@@ -32,10 +54,9 @@
 		company="Init. (ex Nebb)"
 		href="https://initgroup.com/"
 	>
-		The goal of this project was to develop a model for detecting anomalies in time series data,
-		which would be used in a monitoring system. The project included analyzing and visualizing data
-		with Pandas, Statsmodel and Seaborn, and building ML Models for anomaly detection using
-		Scikit-learn.
+		Worked on a model to detect anomalies in time series data for use in a monitoring system.
+		Analyzed and visualized datasets using Pandas, Statsmodels, and Seaborn, and built machine
+		learning models for anomaly detection with Scikit-learn to identify unusual patterns and trends.
 	</Project>
 	<Project
 		title="Detecting Malware in Android Applications using XGBoost"
@@ -44,14 +65,11 @@
 		href="https://www.finki.ukim.mk"
 		paper="https://repository.ukim.mk/handle/20.500.12188/27385"
 	>
-		The omnipresence of Android devices and the amount of sensitive information kept in them makes
-		detecting malware in Android applications crucial. In this paper, the efficacy of using machine
-		learning models for the purpose of malware detection in Android applications was examined, and
-		several XGBoost models were developed and compared - each with a distinct feature set. We used
-		the f1 score, precision, recall, confusion matrices, and precision-recall curves to compare the
-		models. Accuracy was not considered since we needed a balanced dataset. One of the models we
-		developed, which used all the available features in the dataset, had encouraging results with
-		high precision and recall.
+		Developed and evaluated machine learning models to detect malware in Android applications,
+		focusing on maximizing precision and recall. Built and compared multiple XGBoost models using
+		different feature sets, analyzing performance with F1 score, precision, recall, confusion
+		matrices, and precision-recall curves. The most comprehensive model, leveraging all available
+		features, achieved strong results in identifying malicious apps.
 	</Project>
 	<Project
 		title="DistilBERT and RoBERTa Models for Identification of Fake News"
@@ -60,12 +78,10 @@
 		href="https://www.finki.ukim.mk"
 		paper="https://repository.ukim.mk/bitstream/20.500.12188/28593/1/MIPRO2023_Mirceva_fake_news.pdf"
 	>
-		The goal of this project was to fine-tune two transformer models, namely DistilBERT and RoBERTa,
-		and compare their effectiveness in fake news detection. Both models were trained on a labelled
-		dataset of news articles and evaluated on two datasets, comparing their performance in terms of
-		accuracy, precision, recall and F1-score. The results of the experiments showed that both models
-		perform well, with RoBERTa achieving slightly better results overall. This project resulted in a
-		paper that was published at the MIPRO Convention in Croatia.
+		Fine-tuned and compared DistilBERT and RoBERTa models for fake news detection using a labeled
+		dataset of news articles. Evaluated model performance on multiple datasets with accuracy,
+		precision, recall, and F1-score metrics, with RoBERTa achieving slightly superior results. The
+		work culminated in a research paper published at the MIPRO Convention in Croatia.
 	</Project>
 	<Project
 		title="logs2graphs: Data-driven graph representation and visualization of log data"
@@ -76,11 +92,9 @@
 		repo="https://github.com/stefanandonov/log2graph"
 		repo_name="log2graph"
 	>
-		The goal of this project was to develop a system which could create graph representations of
-		system logs. These graph representations could then be used in logs anomaly detection, logs
-		prediction, and root cause analysis guided by logs. Therefore in this paper, we present
-		logs2graphs, an open-source system for the creation and visualization of such graph
-		representations of log messages, which is compatible with several publicly available log sources
-		and expandable to other log sources.
+		Helped develop an open-source system, Logs2Graphs, to create graph representations of system
+		logs for anomaly detection, log prediction, and root cause analysis. The system supports
+		multiple publicly available log sources and is designed to be easily extended to additional
+		sources, enabling structured visualization and analysis of log data.
 	</Project>
 </div>
