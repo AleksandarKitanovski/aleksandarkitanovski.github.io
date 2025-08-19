@@ -1,0 +1,28 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/9MT4eJaW.js";import{v as c,n as p,R as w,o as b,q as d,p as n,r as l,O as y,av as v,P as x,a7 as s,a9 as u}from"../chunks/DTmp4FBA.js";import{d as I}from"../chunks/BAToHkrl.js";import{a as k}from"../chunks/1VidrSLw.js";import{p as _}from"../chunks/D6GxcjB7.js";import{s as h}from"../chunks/CcmQBWWu.js";function j(a,t,e,o){var i=a.__style;if(c||i!==t){var r=k(t);(!c||r!==a.getAttribute("style"))&&(r==null?a.removeAttribute("style"):a.style.cssText=r),a.__style=t}return o}var M=p('<article class="mt-16 md:mt-0 w-11/12 sm:w-9/12 md:w-1/2 lg:w-1/3 bg-gray-800 bg-opacity-85 rounded-lg pt-5 pb-8 px-10 sm:px-7 sm:pt-3 sm:pb-5"><h1 class="text-center text-orange-600 font-bold text-xl md:text-2xl lg:text-4xl mb-2"> </h1> <p class="text-white text-justify leading-5 text-sm md:text-base lg:text-lg"> </p> <h2 class="text-zinc-400 text-center mt-2 text-sm lg:text-base"> </h2></article>');function L(a,t){var e=M(),o=n(e),i=n(o,!0);l(o);var r=d(o,2),m=n(r,!0);l(r);var g=d(r,2),f=n(g,!0);l(g),l(e),w(()=>{h(i,t.title),h(m,t.text),h(f,t.date)}),b(a,e)}function S(a,t,e){s(t)>0?u(t,s(t)-1):u(t,e().length-1)}function T(a,t,e){u(t,(s(t)+1)%e().length)}var A=p(`<div class="relative flex items-start md:items-center justify-center carousel_slide svelte-au3m0l"><button aria-label="previous slide" class="absolute transition-all h-auto w-auto bottom-36 left-10 sm:left-3 lg:left-[20%] md:bottom-auto
+		       bg-gray-800 bg-opacity-85 rounded-lg" type="button"><svg class="stroke-orange-600 stroke-1 w-16 h-16
+    			   sm:w-12 sm:h-12
+			       md:w-20 md:h-20
+			       lg:w-28 lg:h-28 lg:stroke-2 hover:lg:stroke-[3]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"><path d="M15 6L9 12L15 18" stroke-linecap="round" stroke-linejoin="round"></path></svg></button> <!> <button aria-label="next slide" class="absolute transition-all h-auto w-auto bottom-36 right-10 sm:right-3 lg:right-[20%] md:bottom-auto
+               bg-gray-800 bg-opacity-85 rounded-lg" type="button"><svg class="stroke-orange-600 stroke-1 w-16 h-16
+         		   sm:w-12 sm:h-12
+			       md:w-20 md:h-20
+				   lg:w-28 lg:h-28 lg:stroke-2 hover:lg:stroke-[3]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L15 12L9 18" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div>`);function C(a,t){y(t,!0);let e=v(0),o=_(t,"slides",19,()=>[]);var i=A(),r=n(i);r.__click=[S,e,o];var m=d(r,2);L(m,{get title(){return o()[s(e)].title},get text(){return o()[s(e)].text},get date(){return o()[s(e)].date}});var g=d(m,2);g.__click=[T,e,o],l(i),w(()=>j(i,`background-image: url(${o()[s(e)].img??""}); transition: background-image 0.5s ease-out;`)),b(a,i),x()}I(["click"]);function R(a){C(a,{slides:[{title:"Landed on Earth",text:`Right before my home planet was destroyed,
+			my parents put me in an escape pod and sent me to Earth.
+			I'm not a super hero tho, that's Kal-El, he was my neighbour
+			on Krypton - and like every good neighbour's kid he always has
+			to one up me...`,date:"September, 1999",img:"/space.png"},{title:"Elementary School",text:`Playing Super Mario among other games on a NES was my first introduction to gaming, and what
+    		originally drew me towards programming as a career. This was also around the time I got my
+    		first computer, and with more games came more curiosity - why not learn how to make them
+    		myself one day?`,date:"September, 2005 - June, 2010",img:"/elementary.jpg"},{title:"Middle School",text:`During this time I got access to the internet, and started figuring out how to write batch
+			scripts on Windows XP, after a while I discovered C++ and started teaching myself programming.
+			I was having more fun than I could imagine.`,date:"September, 2010 - June, 2014",img:"/middle.jpg"},{title:"High School",text:`As I was getting more serious about programming, I found out I'll need to learn math. The
+			more math I learned the more I wanted to learn, I loved it. I also went on a few programming competitions
+			and found out how much more there was to learn about algorithms, data structures and whatnot...`,date:"September, 2014 - June, 2018",img:"/high.jpg"},{title:"College",text:`I studied Computer Science at FINKI, taking every math elective I could get my hands on. Naturally
+			my focus was mostly on applied math, data science and artificial intelligence. My graduating thesis was
+			"Comparison of turbo codes with random codes based on quasigroups for transmission through a Gaussian channel".`,date:"October, 2018 - April, 2023",img:"/college.jpg"},{title:"Internship at Nebb",text:`I did a three month Machine Learning internship at Nebb (now called Init.). The project I worked on
+			was anomaly detection on time series data using unsupervised machine learning models. This was the first time
+			I got to apply my skills in real world settings.`,date:"July, 2021 - October , 2023",img:"/nebb.jpg"},{title:"Joined GrabIT",text:`I got my first job at GrabIT, where I worked for around 2 years as a data scientist. Most of the
+			work I did here was in chat-bot development, at first using Transformer models and text classification, and
+			later moving on to Large Language Models.`,date:"March, 2022 - April, 2024",img:"/grabit.jpg"},{title:"Joined Ludotech",text:`When the time to change pace came, I decided to try my hand at something different entirely – 
+			I started working at Ludotech as a fullstack developer, building websites with Rust.
+			My work here also expanded to AI engineering - designing and implementing AI-driven features and applications using Python.`,date:"May, 2024 - Present",img:"/ludotech.jpg"}]})}export{R as component};
