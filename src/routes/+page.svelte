@@ -40,7 +40,7 @@
 			img: '/high.jpg'
 		},
 		{
-			title: 'College',
+			title: "Bachelor's Studies",
 			text: `I studied Computer Science at FINKI, taking every math elective I could get my hands on. Naturally
 			my focus was mostly on applied math, data science and artificial intelligence. My graduating thesis was
 			"Comparison of turbo codes with random codes based on quasigroups for transmission through a Gaussian channel".`,
@@ -62,6 +62,13 @@
 			later moving on to Large Language Models.`,
 			date: 'March, 2022 - April, 2024',
 			img: '/grabit.jpg'
+		},
+		{
+			title: "Master's Studies",
+			text: `I’m currently pursuing a master’s degree in Intelligent Systems at FINKI, where my studies focus on
+			large language models, applied mathematics, and optimization.`,
+			date: 'October, 2023 - Present',
+			img: '/masters.jpg'
 		},
 		{
 			title: 'Joined Ludotech',
