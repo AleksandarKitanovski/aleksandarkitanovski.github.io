@@ -10,7 +10,7 @@ import"../chunks/CWj6FrbW.js";import"../chunks/9MT4eJaW.js";import{v as c,n as p
 			my parents put me in an escape pod and sent me to Earth.
 			I'm not a super hero tho, that's Kal-El, he was my neighbour
 			on Krypton - and like every good neighbour's kid he always has
-			to one up me...`,date:"September, 1999",img:"/space.png"},{title:"Elementary School",text:`Playing Super Mario among other games on a NES was my first introduction to gaming, and what
+			to one up me...`,date:"September, 1999",img:"/space.jpg"},{title:"Elementary School",text:`Playing Super Mario among other games on a NES was my first introduction to gaming, and what
     		originally drew me towards programming as a career. This was also around the time I got my
     		first computer, and with more games came more curiosity - why not learn how to make them
     		myself one day?`,date:"September, 2005 - June, 2010",img:"/elementary.jpg"},{title:"Middle School",text:`During this time I got access to the internet, and started figuring out how to write batch
