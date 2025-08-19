@@ -7,23 +7,23 @@
 	<ChartCard title={'Overall'}>
 		<RadarChart
 			dataPoints={{
-				labels: ['Data', 'Math', 'Software', 'DevOps', 'Soft Skills'],
+				labels: ['AI / ML', 'Math', 'Software', 'DevOps', 'Soft Skills'],
 				data: [9, 8, 8, 4, 7]
 			}}
 		/>
 	</ChartCard>
-	<ChartCard title="Data">
+	<ChartCard title="AI / ML">
 		<RadarChart
 			dataPoints={{
 				labels: [
-					'Data Engineering',
+					'AI Engineering',
 					'Data Science',
 					'Data Analysis',
 					'Machine Learning',
 					'MLOps',
-					'Databases'
+					'Data Engineering'
 				],
-				data: [7, 8, 9, 8, 6, 6]
+				data: [9, 8, 8, 7, 5, 4]
 			}}
 		/>
 	</ChartCard>
@@ -31,7 +31,7 @@
 		<RadarChart
 			dataPoints={{
 				labels: ['Statistics', 'Probability', 'Linear Algebra', 'Optimization', 'Calculus'],
-				data: [7, 6, 5, 5, 8]
+				data: [7, 6, 5, 7, 8]
 			}}
 		/>
 	</ChartCard>
@@ -46,15 +46,15 @@
 					'Data Structures',
 					'CS Theory'
 				],
-				data: [8, 6, 2, 6, 7, 6]
+				data: [8, 6, 3, 6, 7, 6]
 			}}
 		/>
 	</ChartCard>
 	<ChartCard title="DevOps">
 		<RadarChart
 			dataPoints={{
-				labels: ['Linux', 'Cloud', 'Bash Scripting', 'Continerization', 'Orchestration'],
-				data: [7, 4, 5, 4, 3]
+				labels: ['Linux', 'Cloud Computing', 'Bash Scripting', 'Continerization', 'Orchestration'],
+				data: [7, 5, 6, 4, 1]
 			}}
 		/>
 	</ChartCard>
@@ -62,7 +62,7 @@
 		<RadarChart
 			dataPoints={{
 				labels: ['Communication', 'Team work', 'Public Speaking', 'Time management', 'Leadership'],
-				data: [7, 10, 7, 6, 3]
+				data: [8, 10, 7, 5, 3]
 			}}
 		/>
 	</ChartCard>

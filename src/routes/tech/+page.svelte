@@ -12,21 +12,21 @@
 				{ technology: 'TypeScript', confidence: 7 },
 				{ technology: 'Rust', confidence: 6 },
 				{ technology: 'HTML & CSS', confidence: 5 },
-				{ technology: 'C/C++', confidence: 4 },
-				{ technology: 'Clojure', confidence: 3 }
 			]}
 		/>
 	</ChartCard>
 	<ChartCard title="Frameworks & Libraries">
 		<BarChart
 			data={[
+				{ technology: 'FastAPI (Python)', confidence: 9 },
+				{ technology: 'LangChain', confidence: 7 },
+				{ technology: 'LangGraph', confidence: 6 },
 				{ technology: 'Scikit Learn (Python)', confidence: 9 },
-				{ technology: 'FastAPI (Python)', confidence: 8 },
 				{ technology: 'TailwindCSS (CSS)', confidence: 8 },
-				{ technology: 'HTMX (HTML)', confidence: 7 },
 				{ technology: 'Pytorch (Python)', confidence: 6 },
 				{ technology: 'Svelte (JS/TS)', confidence: 5 },
-				{ technology: 'Actix (Rust)', confidence: 4 }
+				{ technology: 'Actix (Rust)', confidence: 4 },
+				{ technology: 'FastMCP', confidence: 3 }
 			]}
 		/>
 	</ChartCard>
@@ -68,7 +68,7 @@
 				{ technology: 'Docker', confidence: 6 },
 				{ technology: 'Bash', confidence: 5 },
 				{ technology: 'Powershell', confidence: 4 },
-				{ technology: 'Kubernetes', confidence: 2 }
+				{ technology: 'GCP', confidence: 3 }
 			]}
 		/>
 	</ChartCard>
