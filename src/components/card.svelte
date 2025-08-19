@@ -1,6 +1,12 @@
-<script>
-	/** @type {{title?: string, children?: import('svelte').Snippet}} */
-	let { title = '', children } = $props();
+<script lang="ts">
+	import type { Snippet } from 'svelte';
+
+	interface Props {
+		title?: string;
+		children?: Snippet;
+	}
+
+	let { title = '', children }: Props = $props();
 </script>
 
 <div class="rounded-lg shadow-sm bg-white my-4 mx-auto p-4 xl:m-4 w-auto md:w-2/3 lg:w-auto">

@@ -96,6 +96,7 @@
 
 <nav class="flex justify-end items-center gap-x-3 lg:gap-x-5 pr-5 pb-2 fixed bottom-0 w-full">
 	<a
+		aria-label="github"
 		href="https://github.com/AleksandarKitanovski"
 		class="fill-white bg-gray-800 bg-opacity-80 rounded-2xl p-2 lg:p-3"
 	>
@@ -120,6 +121,7 @@
 		</svg>
 	</a>
 	<a
+		aria-label="linkedin"
 		href="https://www.linkedin.com/in/aleksandar-kitanovski/"
 		class="fill-white bg-gray-800 bg-opacity-80 rounded-2xl p-2 lg:p-3"
 	>
@@ -142,6 +144,7 @@
 		</svg>
 	</a>
 	<button
+		aria-label="copy mail"
 		onclick={copyMail}
 		class="cursor-copy fill-white bg-gray-800 bg-opacity-80 rounded-2xl p-2 lg:p-3"
 	>

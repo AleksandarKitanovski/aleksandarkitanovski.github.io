@@ -1,7 +1,13 @@
-<script>
+<script lang="ts">
+	import type { Snippet } from 'svelte';
 	import Card from './card.svelte';
-	/** @type {{title?: string, children?: import('svelte').Snippet}} */
-	let { title = '', children } = $props();
+
+	interface Props {
+		title?: string;
+		children?: Snippet;
+	}
+
+	let { title = '', children }: Props = $props();
 </script>
 
 <Card {title}>

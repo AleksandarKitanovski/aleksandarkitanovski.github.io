@@ -1,5 +1,19 @@
-<script>
-	/** @type {{title: any, href: any, company: any, duration: any, paper?: string, repo?: string, repo_name?: string, desc?: import('svelte').Snippet, tech?: import('svelte').Snippet, skills?: import('svelte').Snippet}} */
+<script lang="ts">
+	import type { Snippet } from 'svelte';
+
+	interface Props {
+		title: any;
+		href: any;
+		company: any;
+		duration: any;
+		paper?: string;
+		repo?: string;
+		repo_name?: string;
+		desc?: Snippet;
+		tech?: Snippet;
+		skills?: Snippet;
+	}
+
 	let {
 		title,
 		href,
@@ -11,12 +25,12 @@
 		desc,
 		tech,
 		skills
-	} = $props();
+	}: Props = $props();
 </script>
 
 <div class="m-3">
 	<h1 class="flex items-center mb-2">
-		<a href="/projects" class="mr-2">
+		<a aria-label="back" href="/projects" class="mr-2">
 			<svg width="25px" height="25px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
 				<path fill="#000000" d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z" />
 				<path

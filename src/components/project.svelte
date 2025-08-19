@@ -1,6 +1,18 @@
-<script>
+<script lang="ts">
+	import type { Snippet } from 'svelte';
 	import Card from './card.svelte';
-	/** @type {{title: any, duration: any, company: any, href: any, paper?: string, repo?: string, repo_name?: string, children?: import('svelte').Snippet}} */
+
+	interface Props {
+		title: any;
+		duration: any;
+		company: any;
+		href: any;
+		paper?: string;
+		repo?: string;
+		repo_name?: string;
+		children?: Snippet;
+	}
+
 	let {
 		title,
 		duration,
@@ -10,7 +22,7 @@
 		repo = '',
 		repo_name = '',
 		children
-	} = $props();
+	}: Props = $props();
 
 	let project_name = title.toLowerCase().replaceAll(/[^0-9a-z]/g, '_');
 </script>

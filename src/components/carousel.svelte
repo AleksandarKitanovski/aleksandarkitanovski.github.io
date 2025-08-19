@@ -7,7 +7,6 @@
 	}
 
 	let { slides = [] }: Props = $props();
-	let el: HTMLElement = $state();
 
 	function prev_slide() {
 		if (selected > 0) {
@@ -23,11 +22,11 @@
 </script>
 
 <div
-	bind:this={el}
 	class="relative flex items-start md:items-center justify-center carousel_slide"
 	style="background-image: url({slides[selected].img}); transition: background-image 0.5s ease-out;"
 >
 	<button
+		aria-label="previous slide"
 		class="absolute transition-all h-auto w-auto bottom-36 left-10 sm:left-3 lg:left-[20%] md:bottom-auto
 		       bg-gray-800 bg-opacity-85 rounded-lg"
 		onclick={prev_slide}
@@ -51,6 +50,7 @@
 		date={slides[selected].date}
 	/>
 	<button
+		aria-label="next slide"
 		class="absolute transition-all h-auto w-auto bottom-36 right-10 sm:right-3 lg:right-[20%] md:bottom-auto
                bg-gray-800 bg-opacity-85 rounded-lg"
 		onclick={next_slide}
